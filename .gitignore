@@ -1,0 +1,20 @@
+# Bibliothèques installées par Composer (se réinstallent avec "composer install")
+vendor/
+
+# Données personnelles : photos, justificatifs et rapports générés
+photos/*
+photos_par_filiere/*
+justificatifs/*
+pdf/*
+
+# On garde quand même les dossiers vides (l'application y enregistre des fichiers)
+!photos/.gitkeep
+!photos_par_filiere/.gitkeep
+!justificatifs/.gitkeep
+!pdf/.gitkeep
+
+# Éditeurs et système
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
