@@ -1,4 +1,4 @@
-# Gestion des Absences — QR Code Attendance
+# Gestion des Absences - QR Code Attendance
 
 Web application to manage student attendance in an engineering school. For each class
 session, the administrator displays a QR code; students scan it with their phone to
